@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="change eslint settings">
-      <change afterPath="$PROJECT_DIR$/assets/styles/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/Layout.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/notes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/photograph.js" afterDir="false" />
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="install scss">
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/theme-dark-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icon/theme-light-icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -87,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650719144043</updated>
       <workItem from="1650719165360" duration="836000" />
-      <workItem from="1650723320021" duration="3794000" />
+      <workItem from="1650723320021" duration="5529000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -103,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650732693962</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="install scss">
+      <created>1650798958499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650798958499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="install eslint &amp; prettier" />
     <MESSAGE value="change eslint settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="change eslint settings" />
+    <MESSAGE value="install scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="install scss" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

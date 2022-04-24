@@ -1,0 +1,15 @@
+.navWrapper{
+  @apply flex justify-between items-center antialiased max-w-screen-md mx-auto  border-b border-gray-200 text-gray-800;
+  .navList{
+    @apply flex justify-start items-center;
+    li{
+      @apply py-3 px-6;
+    }
+  }
+  .themeIcons{
+    @apply flex items-center justify-center;
+    svg{
+      @apply fill-current text-gray-800;
+    }
+  }
+}
