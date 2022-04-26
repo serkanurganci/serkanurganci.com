@@ -1,6 +1,6 @@
 .container{
-    @apply h-screen flex items-center justify-center;
+    @apply h-full flex dark:bg-black items-center justify-center;
     .title{
-        @apply text-3xl text-gray-700;
+        @apply text-3xl;
     }
 }
