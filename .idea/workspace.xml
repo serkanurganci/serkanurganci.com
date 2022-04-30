@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="install svgr package &amp; header general design">
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="Add dark mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/Header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/Home.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/Layout.module.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/globals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,9 @@
       <updated>1650719144043</updated>
       <workItem from="1650719165360" duration="836000" />
       <workItem from="1650723320021" duration="7800000" />
-      <workItem from="1651000813026" duration="2111000" />
+      <workItem from="1651000813026" duration="2504000" />
+      <workItem from="1651174427476" duration="943000" />
+      <workItem from="1651322453862" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650816998588</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add dark mode">
+      <created>1651003192251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651003192251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +144,8 @@
     <MESSAGE value="change eslint settings" />
     <MESSAGE value="install scss" />
     <MESSAGE value="install svgr package &amp; header general design" />
-    <option name="LAST_COMMIT_MESSAGE" value="install svgr package &amp; header general design" />
+    <MESSAGE value="Add dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dark mode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

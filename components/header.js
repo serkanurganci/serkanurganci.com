@@ -1,5 +1,4 @@
 import Link from "next/link";
-import styles from "../assets/styles/Header.module.scss";
 import ThemeDarkIcon from "../assets/images/icon/theme-dark-icon.svg";
 import ThemeLightIcon from "../assets/images/icon/theme-light-icon.svg";
 import { useRouter } from "next/router";
@@ -21,34 +20,67 @@ function Header() {
     const currentTheme = theme === "system" ? systemTheme : theme;
 
     if (currentTheme === "dark") {
-      return <ThemeLightIcon role="button" onClick={() => setTheme("light")} />;
+      return (
+        <ThemeLightIcon
+          role="button"
+          className={"fill-current cursor-pointer"}
+          onClick={() => setTheme("light")}
+        />
+      );
     } else {
-      return <ThemeDarkIcon role="button" onClick={() => setTheme("dark")} />;
+      return (
+        <ThemeDarkIcon
+          role="button"
+          className={"fill-current cursor-pointer"}
+          onClick={() => setTheme("dark")}
+        />
+      );
     }
   };
   return (
     <header>
-      <nav className={styles.navWrapper}>
-        <ul className={styles.navList}>
-          <li className={router.pathname === "/" ? styles.active : ""}>
+      <nav
+        className="flex justify-between items-center antialiased max-w-screen-md mx-auto  border-b border-gray-200;
+"
+      >
+        <ul className="flex justify-start items-center">
+          <li
+            className={
+              router.pathname === "/"
+                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-6 duration-200 -mb-0.5 "
+            }
+          >
             <Link href="/">
               <a>Giriş</a>
             </Link>
           </li>
           <li
-            className={router.pathname === "/photograph" ? styles.active : ""}
+            className={
+              router.pathname === "/photograph"
+                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-6 duration-200 -mb-0.5 "
+            }
           >
             <Link href="/photograph">
               <a>Fotoğraf</a>
             </Link>
           </li>
-          <li className={router.pathname === "/notes" ? styles.active : ""}>
+          <li
+            className={
+              router.pathname === "/notes"
+                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-6 duration-200 -mb-0.5 "
+            }
+          >
             <Link href="/notes">
               <a>Notlar</a>
             </Link>
           </li>
         </ul>
-        <div className={styles.themeIcons}>{renderThemeChanger()}</div>
+        <div className="flex items-center justify-center">
+          {renderThemeChanger()}
+        </div>
       </nav>
     </header>
   );
