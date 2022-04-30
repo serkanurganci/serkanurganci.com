@@ -1,5 +1,5 @@
-import "../assets/styles/globals.scss";
-import Layout from "../components/layout";
+import "../styles/globals.scss";
+import Layout from "../components/Layout";
 import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
