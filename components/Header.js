@@ -57,6 +57,17 @@ function Header() {
           </li>
           <li
             className={
+              router.pathname === "/skills"
+                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-6 duration-200 -mb-0.5 "
+            }
+          >
+            <Link href="/skills">
+              <a>Yetenekler</a>
+            </Link>
+          </li>
+          <li
+            className={
               router.pathname === "/photograph"
                 ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
                 : "py-3 px-6 duration-200 -mb-0.5 "

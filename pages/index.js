@@ -2,15 +2,17 @@ import Image from "next/image";
 import Social from "../components/Social";
 export default function Home() {
   return (
-    <div className="max-w-screen-md mx-auto h-full dark:bg-black">
-      <div className="flex justify-center items-center gap-10 mt-12">
-        <Image
-          src="/photos/PP.jpeg"
-          className="rounded-full"
-          alt="pp"
-          width={900}
-          height={1200}
-        />
+    <div className="">
+      <div className="flex justify-center items-center gap-10">
+        <div className="flex rounded-full bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+          <Image
+            src="/photos/PP.jpeg"
+            className="rounded-full object-cover"
+            alt="pp"
+            width={900}
+            height={900}
+          />
+        </div>
         <div className="space-y-6">
           <h1 className="text-3xl">
             {" "}
