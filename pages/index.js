@@ -3,7 +3,7 @@ import Social from "../components/Social";
 export default function Home() {
   return (
     <div className="">
-      <div className="flex justify-center items-center gap-10">
+      <div className="component-small flex justify-center items-center gap-10">
         <div className="flex rounded-full bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
           <Image
             src="/photos/PP.jpeg"
@@ -25,6 +25,15 @@ export default function Home() {
           </p>
           <Social />
         </div>
+      </div>
+      <div className="component-large mt-20">
+        <Image
+          src="/photos/setup.jpeg"
+          alt="Serkan Urganci"
+          width={1433}
+          height={1018}
+          layout="responsive"
+        />
       </div>
     </div>
   );

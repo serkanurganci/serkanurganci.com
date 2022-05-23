@@ -11,3 +11,13 @@
     @apply border-b-2 border-gray-800 dark:border-gray-600;
   }
 }
+
+@layer components{
+  .component-small {
+    @apply max-w-screen-sm mx-auto px-4;
+  }
+
+  .component-large {
+    @apply max-w-screen-xl mx-auto px-4;
+  }
+}

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="add skills page &amp; code refactoring">
-      <change afterPath="$PROJECT_DIR$/components/SkillItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/skills.js" afterDir="false" />
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="skills page basic design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SkillItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SkillItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,9 @@
       <workItem from="1651000813026" duration="2504000" />
       <workItem from="1651174427476" duration="943000" />
       <workItem from="1651322453862" duration="9026000" />
-      <workItem from="1651992917907" duration="3321000" />
+      <workItem from="1651992917907" duration="3655000" />
+      <workItem from="1652472214296" duration="425000" />
+      <workItem from="1653322535986" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -148,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651673840961</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="skills page basic design">
+      <created>1651998221786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651998221786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +185,8 @@
     <MESSAGE value="delete module css files" />
     <MESSAGE value="Home page general design &amp; add social component" />
     <MESSAGE value="add skills page &amp; code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="add skills page &amp; code refactoring" />
+    <MESSAGE value="skills page basic design" />
+    <option name="LAST_COMMIT_MESSAGE" value="skills page basic design" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
