@@ -2,8 +2,8 @@ import Image from "next/image";
 import Social from "../components/Social";
 export default function Home() {
   return (
-    <div className="">
-      <div className="component-small flex justify-center items-center gap-10">
+    <div>
+      <div className="container-small flex flex-col sm:flex-row justify-center items-center gap-10">
         <div className="flex rounded-full bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
           <Image
             src="/photos/PP.jpeg"
@@ -13,20 +13,20 @@ export default function Home() {
             height={900}
           />
         </div>
-        <div className="space-y-6">
+        <div className="space-y-6 text-center sm:text-left">
           <h1 className="text-3xl">
             {" "}
             <p>Merhaba.</p> <p>Ben Serkan Urgancı.</p>
           </h1>
           <p className="text-gray-500">
-            Eskişehir`de yaşayan bir front-end geliştiricisiyim. Front-end
-            teknolojileri ile yakından ilgileniyorum. Ayrıca tam bir fitness
-            aşığıyım. :)
+            Eskişehir`de yaşamakta olan bir front-end geliştiricisiyim.
+            Front-end teknolojileri ile yakından ilgileniyorum. Ayrıca tam bir
+            fitness aşığıyım. :)
           </p>
           <Social />
         </div>
       </div>
-      <div className="component-large mt-20">
+      <div className="container-large mt-4 sm:mt-20">
         <Image
           src="/photos/setup.jpeg"
           alt="Serkan Urganci"

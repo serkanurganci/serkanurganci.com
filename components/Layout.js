@@ -7,7 +7,7 @@ export default function Layout({ children }) {
         <Header />
         <main className="h-full mt-12">{children}</main>
       </div>
-      <div className="my-2 text-sm text-center text-gray-400">
+      <div className="my-4 text-sm text-center text-gray-400">
         ©2022 Serkan Urgancı
       </div>
     </div>

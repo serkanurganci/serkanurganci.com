@@ -47,8 +47,8 @@ function Header() {
           <li
             className={
               router.pathname === "/"
-                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-6 duration-200 -mb-0.5 "
+                ? "py-3 px-4 sm:px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-4 sm:px-6 duration-200 -mb-0.5 "
             }
           >
             <Link href="/">
@@ -58,8 +58,8 @@ function Header() {
           <li
             className={
               router.pathname === "/skills"
-                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-6 duration-200 -mb-0.5 "
+                ? "py-3 px-4 sm:px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-4 sm:px-6 duration-200 -mb-0.5 "
             }
           >
             <Link href="/skills">
@@ -68,28 +68,39 @@ function Header() {
           </li>
           <li
             className={
-              router.pathname === "/photograph"
-                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-6 duration-200 -mb-0.5 "
+              router.pathname === "/projects"
+                ? "py-3 px-4 sm:px-6 duration-200 -mb-0.5 active-nav-item"
+                : "py-3 px-4 sm:px-6 duration-200 -mb-0.5 "
             }
           >
-            <Link href="/photograph">
-              <a>Fotoğraf</a>
+            <Link href="/projects">
+              <a>Projeler</a>
             </Link>
           </li>
-          <li
-            className={
-              router.pathname === "/notes"
-                ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-6 duration-200 -mb-0.5 "
-            }
-          >
-            <Link href="/notes">
-              <a>Notlar</a>
-            </Link>
-          </li>
+          {/*<li*/}
+          {/*  className={*/}
+          {/*    router.pathname === "/photograph"*/}
+          {/*      ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"*/}
+          {/*      : "py-3 px-6 duration-200 -mb-0.5 "*/}
+          {/*  }*/}
+          {/*>*/}
+          {/*  <Link href="/photograph">*/}
+          {/*    <a>Fotoğraf</a>*/}
+          {/*  </Link>*/}
+          {/*</li>*/}
+          {/*<li*/}
+          {/*  className={*/}
+          {/*    router.pathname === "/notes"*/}
+          {/*      ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"*/}
+          {/*      : "py-3 px-6 duration-200 -mb-0.5 "*/}
+          {/*  }*/}
+          {/*>*/}
+          {/*  <Link href="/notes">*/}
+          {/*    <a>Notlar</a>*/}
+          {/*  </Link>*/}
+          {/*</li>*/}
         </ul>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pr-4 sm:pr-6">
           {renderThemeChanger()}
         </div>
       </nav>

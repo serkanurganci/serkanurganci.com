@@ -3,7 +3,7 @@ import { BsTwitter, BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 
 function Social() {
   return (
-    <div className="p-2 flex items-center gap-x-2 rounded-full">
+    <div className="p-2 flex justify-center sm:justify-start items-center gap-x-2 rounded-full">
       <SocialButton href="https://twitter.com/serkanurgancii">
         <BsTwitter size={22} />
       </SocialButton>
