@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="setup img">
-      <change afterPath="$PROJECT_DIR$/components/ProjectCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/projects.js" afterDir="false" />
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="responsive design &amp; add project design">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/github.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SkillItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/SkillItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Social.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Social.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProjectCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,9 @@
       <workItem from="1651992917907" duration="3655000" />
       <workItem from="1652472214296" duration="425000" />
       <workItem from="1653322535986" duration="1736000" />
-      <workItem from="1653416863752" duration="4816000" />
+      <workItem from="1653416863752" duration="5636000" />
+      <workItem from="1653485566057" duration="4026000" />
+      <workItem from="1653500532785" duration="2163000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653338080885</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="responsive design &amp; add project design">
+      <created>1653421978763</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653421978763</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +217,8 @@
     <MESSAGE value="skills page basic design" />
     <MESSAGE value="edit general ui" />
     <MESSAGE value="setup img" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup img" />
+    <MESSAGE value="responsive design &amp; add project design" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive design &amp; add project design" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
