@@ -1,5 +1,5 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3, DiSass, DiBootstrap } from "react-icons/di";
+import { DiCss3, DiSass, DiBootstrap, DiJavascript1 } from "react-icons/di";
 import {
   SiTailwindcss,
   SiNuxtdotjs,
@@ -18,7 +18,7 @@ const skills = [
   },
   { title: "CSS", icon: <DiCss3 size={iconSize} />, href: "" },
   {
-    title: "SASS",
+    title: "SCSS",
     icon: <DiSass size={iconSize} />,
     href: "https://www.w3schools.com/css/",
   },
@@ -31,6 +31,11 @@ const skills = [
     title: "Bootstrap",
     icon: <DiBootstrap size={iconSize} />,
     href: "https://getbootstrap.com/",
+  },
+  {
+    title: "JavaScript",
+    icon: <DiJavascript1 size={iconSize} />,
+    href: "https://www.javascript.com/",
   },
   {
     title: "Vue.js",
