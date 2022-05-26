@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="add octokit package">
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="connect my repos from github api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProjectCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +97,7 @@
       <workItem from="1653322535986" duration="1736000" />
       <workItem from="1653416863752" duration="5636000" />
       <workItem from="1653485566057" duration="4026000" />
-      <workItem from="1653500532785" duration="5520000" />
+      <workItem from="1653500532785" duration="8025000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653507805868</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="connect my repos from github api">
+      <created>1653510959542</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653510959542</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +235,8 @@
     <MESSAGE value="setup img" />
     <MESSAGE value="responsive design &amp; add project design" />
     <MESSAGE value="add octokit package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add octokit package" />
+    <MESSAGE value="connect my repos from github api" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect my repos from github api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

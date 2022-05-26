@@ -20,9 +20,9 @@ const ProjectCard = ({ name, description, link, language }) => {
       relative
       items-center space-y-2 font-[600]
       shadow-[0px_5px_15px_rgba(0,0,0,0.35)]
-      dark:shadow-[0px_5px_15px_rgba(79,70,229,1)] w-44 h-44 md:w-60
+      dark:shadow-[0px_5px_15px_rgba(79,70,229,1)] w-44 h-44 md:w-56
       md:h-60 rounded-3xl dark:bg-indigo-600
-      duration-200 hover:scale-105 px-6"
+      duration-200 hover:scale-105 px-6 hover:bg-gradient-to-r hover:from-[#6EE7B7] hover:via-[#3B82F6] hover:to-[#9333EA] hover:text-white"
       rel="noreferrer"
     >
       <p className="font-bold text-base sm:text-lg">
@@ -35,7 +35,7 @@ const ProjectCard = ({ name, description, link, language }) => {
           ? description.substring(0, maxDescLength) + "..."
           : description}
       </p>
-      <p className="absolute -top-1/2 translate-y-full text-xs border-2 shadow-lg rounded-full w-1/3 h-1/3 flex justify-center items-center bg-white dark:bg-purple-600 capitalize  p-2">
+      <p className="absolute -top-1/2 translate-y-full text-xs border-2 shadow-lg rounded-full w-1/3 h-1/3 flex justify-center items-center bg-white dark:bg-purple-600 capitalize p-2 text-black dark:text-white">
         {findLanguageLogo(language)}
       </p>
     </a>
