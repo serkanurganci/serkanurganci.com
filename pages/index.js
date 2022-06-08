@@ -20,8 +20,8 @@ export default function Home() {
           </h1>
           <p className="text-gray-500">
             Eskişehir`de yaşamakta olan bir front-end geliştiricisiyim.
-            Front-end teknolojileri ile yakından ilgileniyorum. Ayrıca tam bir
-            fitness aşığıyım. :)
+            Front-end teknolojileri ile yakından ilgileniyorum. Ayrıca yaklaşık
+            olarak 7 yıldır vücut geliştirme ile uğraşmaktayım.
           </p>
           <Social />
         </div>

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="connect my repos from github api">
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="change projects ui">
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProjectCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ProjectCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/photos/setup.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/setup.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -71,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/photos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -97,7 +100,8 @@
       <workItem from="1653322535986" duration="1736000" />
       <workItem from="1653416863752" duration="5636000" />
       <workItem from="1653485566057" duration="4026000" />
-      <workItem from="1653500532785" duration="8025000" />
+      <workItem from="1653500532785" duration="9868000" />
+      <workItem from="1654627824268" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -204,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653510959542</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="change projects ui">
+      <created>1653576659347</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576659347</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +247,8 @@
     <MESSAGE value="responsive design &amp; add project design" />
     <MESSAGE value="add octokit package" />
     <MESSAGE value="connect my repos from github api" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect my repos from github api" />
+    <MESSAGE value="change projects ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="change projects ui" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
