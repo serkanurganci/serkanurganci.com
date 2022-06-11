@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="change projects ui">
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="change desktop img &amp; description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photos/setup.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/photos/setup.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,8 @@
       <workItem from="1653416863752" duration="5636000" />
       <workItem from="1653485566057" duration="4026000" />
       <workItem from="1653500532785" duration="9868000" />
-      <workItem from="1654627824268" duration="2366000" />
+      <workItem from="1654627824268" duration="2545000" />
+      <workItem from="1654946265152" duration="5801000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653576659347</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change desktop img &amp; description">
+      <created>1654668722131</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654668722131</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="add octokit package" />
     <MESSAGE value="connect my repos from github api" />
     <MESSAGE value="change projects ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="change projects ui" />
+    <MESSAGE value="change desktop img &amp; description" />
+    <option name="LAST_COMMIT_MESSAGE" value="change desktop img &amp; description" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
