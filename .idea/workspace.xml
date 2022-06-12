@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="add change page animation" />
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="delete skills title">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +99,8 @@
       <workItem from="1653485566057" duration="4026000" />
       <workItem from="1653500532785" duration="9868000" />
       <workItem from="1654627824268" duration="2545000" />
-      <workItem from="1654946265152" duration="6345000" />
+      <workItem from="1654946265152" duration="6895000" />
+      <workItem from="1654983940181" duration="1336000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -224,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654952873377</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="delete skills title">
+      <created>1654954835690</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654954835690</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +270,8 @@
     <MESSAGE value="change projects ui" />
     <MESSAGE value="change desktop img &amp; description" />
     <MESSAGE value="add change page animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add change page animation" />
+    <MESSAGE value="delete skills title" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete skills title" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
