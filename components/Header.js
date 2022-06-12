@@ -77,30 +77,17 @@ function Header() {
               <a>Projeler</a>
             </Link>
           </li>
-          {/*<li*/}
-          {/*  className={*/}
-          {/*    router.pathname === "/photograph"*/}
-          {/*      ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"*/}
-          {/*      : "py-3 px-6 duration-200 -mb-0.5 "*/}
-          {/*  }*/}
-          {/*>*/}
-          {/*  <Link href="/photograph">*/}
-          {/*    <a>Fotoğraf</a>*/}
-          {/*  </Link>*/}
-          {/*</li>*/}
-          {/*<li*/}
-          {/*  className={*/}
-          {/*    router.pathname === "/notes"*/}
-          {/*      ? "py-3 px-6 duration-200 -mb-0.5 active-nav-item"*/}
-          {/*      : "py-3 px-6 duration-200 -mb-0.5 "*/}
-          {/*  }*/}
-          {/*>*/}
-          {/*  <Link href="/notes">*/}
-          {/*    <a>Notlar</a>*/}
-          {/*  </Link>*/}
-          {/*</li>*/}
         </ul>
         <div className="flex items-center justify-center pr-4 sm:pr-6">
+          <a
+            href="https://drive.google.com/file/d/1ydVH-V1f5dvuBRqsbRMT8EP6N4MId7kE/view"
+            className="cursor-pointer font-bold font-mono text-lg pr-4 sm:pr-6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            CV
+          </a>
+
           {renderThemeChanger()}
         </div>
       </nav>
