@@ -40,7 +40,7 @@ function Header() {
   return (
     <header>
       <nav
-        className=" antialiased fixed top-0 inset-x-0 z-10 w-full bg-gray-50 mx-auto md:border-b md:border-gray-200 shadow-sm;
+        className=" antialiased fixed top-0 inset-x-0 z-10 w-full bg-gray-50 dark:bg-black  mx-auto border-b border-gray-200 shadow-sm;
 "
       >
         <div className="container-small flex items-center justify-between w-full shadow md:shadow-none h-12 py-1">
