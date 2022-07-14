@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="change header active item styles">
+    <list default="true" id="d4ce0090-35f8-445a-abd7-858a1805855a" name="Changes" comment="add CV &amp; change header ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1653500532785" duration="9868000" />
       <workItem from="1654627824268" duration="2545000" />
       <workItem from="1654946265152" duration="6895000" />
-      <workItem from="1654983940181" duration="2569000" />
+      <workItem from="1654983940181" duration="3799000" />
     </task>
     <task id="LOCAL-00001" summary="install eslint &amp; prettier">
       <created>1650723544277</created>
@@ -243,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655055447494</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add CV &amp; change header ui">
+      <created>1655065771839</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655065771839</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +285,8 @@
     <MESSAGE value="add change page animation" />
     <MESSAGE value="delete skills title" />
     <MESSAGE value="change header active item styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="change header active item styles" />
+    <MESSAGE value="add CV &amp; change header ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CV &amp; change header ui" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

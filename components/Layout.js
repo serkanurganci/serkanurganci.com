@@ -11,7 +11,7 @@ export default function Layout({ children }) {
   const router = useRouter();
   return (
     <div className="min-h-screen flex flex-col justify-between items-stretch">
-      <div>
+      <div className="mt-12">
         <Header />
         <motion.main
           key={router.route}

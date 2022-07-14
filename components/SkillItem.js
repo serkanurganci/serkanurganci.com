@@ -10,6 +10,8 @@ function SkillItem({ children, title, icon, link }) {
     duration-200 hover:scale-105"
       rel="noreferrer"
     >
+
+    
       {icon}
       <p>{title}</p>
     </a>

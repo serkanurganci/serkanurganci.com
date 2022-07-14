@@ -40,55 +40,52 @@ function Header() {
   return (
     <header>
       <nav
-        className="flex justify-between items-center antialiased max-w-screen-md mx-auto  border-b border-gray-200;
+        className=" antialiased fixed top-0 inset-x-0 z-10 w-full bg-gray-50 mx-auto md:border-b md:border-gray-200 shadow-sm;
 "
       >
-        <ul className="flex justify-start items-center">
-          <li
-            className={
-              router.pathname === "/"
-                ? "py-3 px-4 sm:px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-4 sm:px-6 duration-200 -mb-0.5 "
-            }
-          >
+        <div className="container-small flex items-center justify-between w-full shadow md:shadow-none h-12 py-1">
+          <div className="flex justify-start items-center">
             <Link href="/">
-              <a>Giriş</a>
+              <a
+                className={`rounded-md py-0.5 px-4 sm:px-6 duration-200 -mb-0.5 ${
+                  router.pathname === "/" ? "active-nav-item" : ""
+                }`}
+              >
+                Giriş
+              </a>
             </Link>
-          </li>
-          <li
-            className={
-              router.pathname === "/skills"
-                ? "py-3 px-4 sm:px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-4 sm:px-6 duration-200 -mb-0.5 "
-            }
-          >
             <Link href="/skills">
-              <a>Yetenekler</a>
+              <a
+                className={`rounded-md py-0.5 px-4 sm:px-6 duration-200 -mb-0.5 ${
+                  router.pathname === "/skills" ? "active-nav-item" : ""
+                }`}
+              >
+                Yetenekler
+              </a>
             </Link>
-          </li>
-          <li
-            className={
-              router.pathname === "/projects"
-                ? "py-3 px-4 sm:px-6 duration-200 -mb-0.5 active-nav-item"
-                : "py-3 px-4 sm:px-6 duration-200 -mb-0.5 "
-            }
-          >
-            <Link href="/projects">
-              <a>Projeler</a>
-            </Link>
-          </li>
-        </ul>
-        <div className="flex items-center justify-center pr-4 sm:pr-6">
-          <a
-            href="https://drive.google.com/file/d/1ydVH-V1f5dvuBRqsbRMT8EP6N4MId7kE/view"
-            className="cursor-pointer font-bold font-mono text-lg pr-4 sm:pr-6"
-            target="_blank"
-            rel="noreferrer"
-          >
-            CV
-          </a>
 
-          {renderThemeChanger()}
+            <Link href="/projects">
+              <a
+                className={`rounded-md py-0.5 px-4 sm:px-6 duration-200 -mb-0.5 ${
+                  router.pathname === "/projects" ? "active-nav-item" : ""
+                }`}
+              >
+                Projeler
+              </a>
+            </Link>
+          </div>
+          <div className="flex items-center justify-center pr-4 sm:pr-6 ml-8 sm:ml-14">
+            <a
+              href="https://drive.google.com/file/d/1ydVH-V1f5dvuBRqsbRMT8EP6N4MId7kE/view"
+              className="cursor-pointer font-bold font-mono text-lg pr-4 sm:pr-6"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CV
+            </a>
+
+            {renderThemeChanger()}
+          </div>
         </div>
       </nav>
     </header>
